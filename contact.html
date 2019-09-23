@@ -3,49 +3,60 @@
 
 <head>
     <title>contact me</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
-
-<body>
-    <header>
-        <div class="container">
-      <div class="logo">
-        Marina
+<body style="background-image: url(https://assets.awwwards.com/awards/images/2015/04/pattern.jpg)">
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="margin: none">
+      <a class="navbar-brand" href="./index.html"
+        style="background: #59aaa5;height:60px; padding: 10px; color: white; font-size: 28px; display: inline-table;">Marina</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="text-align:right">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="./index.html">About Me</a>
+          <a class="nav-item nav-link" href="./portfolio.html">Portfolio</a>
+          <a class="nav-item nav-link" href="./contact.html">Contact</a>
         </div>
-      <nav>
-        <ul>
-        <li><a href="index.html">About Me</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
       </div>
-      </header>
-<br>
-    <center>
-        <section>
-            <h1>Contact</h1>
-            <div class="container">
-                <form action="action_page.php">
-
-                    <label for="fname">Name</label>
-                    <input type="text" id="fname" name="firstname" placeholder="Jhon Smith"><br>
-
-                    <label for="lname">Email</label>
-                    <input type="text" id="lname" name="lastname" placeholder="example@gmail.com"><br>
-
-
-                    <label for="subject">Message</label>
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
-
-                    <input type="submit" value="Submit"><br>
-
-                </form>
-            </div>
-        </section>
-    </center>
-    <div class="footer">
-        <p>® all rights</p>
+    </nav>
+    </div>
+  </header>
+  </br>
+  <div class="container" style="background-color: #ffffff;   border: 2px solid #dddddd;
+  border-radius: 5px;
+  margin: 0 auto">
+        <div class="row">
+           <div class="col-md-12">
+                <div class="page-header">
+                        <h1 style="color: #59aaa5; line-height: 1.5; padding-top: 3px; border-bottom: 2px solid #cccccc">Contact Me</h1>
+                      </div>
+  <form>
+        <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+              </div>
+        <div class="form-group">
+                     <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+        
+                <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"  placeholder="Write Somthing..."></textarea>
+                      </div>
+        <button type="submit" class="btn btn-primary" style="background: #59aaa5; margin: 5px">Submit</button>
+    </form> 
+           </div>
+        </div>
+ 
+    <div class="container">
+            <div class="row" style="position: fixed; left:0; bottom:0; width:100%; background: gray; text-align:center">
+               <p>Copyrights</p> 
+     </div>
     </div>
 
 </body>
